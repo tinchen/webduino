@@ -1,0 +1,12 @@
+{
+  "name": "angularjs-samples",
+  "version": "0.3.0",
+  "description": "A samples of angularjs with a static `express` server",
+  "main": "server.js",
+  "repository": "",
+  "author": "Tinchen <tin.chen@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4"
+  }
+}
