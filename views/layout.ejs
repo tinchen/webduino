@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta name="description" content="<%= title %>">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://kkbruce.tw/Content/AssetsBS3/examples/offcanvas.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://webduino.io/components/webduino-js/dist/webduino-all.min.js"></script>
+    <script src="https://blockly.webduino.io/webduino-blockly.js"></script>
+    <script src="https://blockly.webduino.io/lib/firebase.js"></script>
+    <script src="https://blockly.webduino.io/lib/runtime.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role=navigation>
+      <div class=container>
+        <div class=navbar-header>
+          <button type=button class="navbar-toggle collapsed" data-toggle=collapse data-target=#navbar aria-expanded=false aria-controls=navbar>
+          <span class=sr-only>Toggle navigation</span>
+          <span class=icon-bar></span>
+          <span class=icon-bar></span>
+          <span class=icon-bar></span>
+          </button>
+          <a class=navbar-brand href=#>Webduino 學習筆記</a>
+        </div>
+        <div id=navbar class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class=active>
+              <a href=#>首頁</a>
+            <li>
+              <a href=#ref>參考資料</a>
+            <li>
+              <a href=#about>關於</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class=container>
+      <div class="row row-offcanvas row-offcanvas-right">
+        <%- body %>
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id=sidebar role=navigation>
+          <div class=list-group>
+            <a target="_blank" href="https://webduino.io" class="list-group-item active">官網</a>
+            <a target="_blank" href="https://webduino.io/tutorials.html#all" class=list-group-item>官網教學範例</a>
+            <a target="_blank" href="https://www.facebook.com/groups/webduino/" class=list-group-item>FB 技術討論社團</a>
+            <a target="_blank" href="http://jsbeautifier.org/" class=list-group-item>Beautify JavaScript and HTML, JSON/JSONP etc.</a>
+            <a target="_blank" href="https://github.com/webduinoio" class=list-group-item>Webduino@github</a>
+            <a target="_blank" href=# class=list-group-item>Link</a>
+            <a target="_blank" href=# class=list-group-item>Link</a>
+            <a target="_blank" href=# class=list-group-item>Link</a>
+            <a target="_blank" href=# class=list-group-item>Link</a>
+            <a target="_blank" href=# class=list-group-item>Link</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        <p>&copy;tin.chen 2017
+      </footer>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kkbruce.tw/Scripts/AssetsBS3/offcanvas.js"></script>
+  </body>
+</html>
